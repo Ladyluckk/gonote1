@@ -2,7 +2,7 @@
   <div class="container-fluid p-0 m-0 h-100 text-body">
     <div class="row p-0 m-0 h-100">
       <div class="col-12 col-md-5 col-lg-4 bg-light p-0 h-100">
-        <h3 class="w-100 text-center p-4">
+        <h3 class="w-100 text-center p-4" castom-2> 
           <i class="bi-clipboard-check text-secondary"></i> GoNote
         </h3>
         <button type="button" class="btn btn-dark w-100 py-2 rounded-0" v-on:click="onShowAddForm()">
@@ -99,9 +99,14 @@
   }
 
   .cover {
-    background-image: url("./assets/background.jpg");
+    background-image: url("./assets/background2.jpg");
     background-position: center;
     background-size: cover;
     height: 30%;
   }
+  
+  .castom-2 {
+  color; #D95F69; }
+  
+  
 </style>
